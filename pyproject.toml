@@ -1,0 +1,15 @@
+[project]
+name = "Maths"
+version = "0.1.0"
+description = "A collection of mathematical concepts and formulae implemented in python"
+authors = [
+    {name = "unseeyou", email = "unseeyoubestmod@gmail.com"},
+]
+dependencies = []
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

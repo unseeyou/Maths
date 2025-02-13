@@ -11,7 +11,7 @@ def trapezoidal_rule(f, a, b, n):
 
 
 def func(x):
-    return math.sqrt(4-x**2)
+    return math.sqrt(4-x**2)  # semicircle with radius 2 at (0, 0)
 
 
 a = 0

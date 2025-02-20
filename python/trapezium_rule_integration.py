@@ -7,7 +7,7 @@ def trapezoidal_rule(f, a, b, n):
     for i in range(1, n):
         result += f(a + i * h)
     result *= h
-    return result
+    return math.fabs(result)
 
 
 def func(x):
